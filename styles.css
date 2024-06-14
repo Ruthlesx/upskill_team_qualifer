@@ -10,12 +10,13 @@
   box-sizing: border-box;
 }
 
-body h1{
+ h1{
   font-weight: 700;
+  font-size: 50px;
 }
 
 .navbar-brand img {
-height: 15px;
+height: 25px;
 }
 
 .nav-link{
@@ -24,6 +25,18 @@ height: 15px;
   margin-left: 10px;
   font-family: "Manrope", sans-serif;
 }
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button-form {
+  margin-left: auto;
+}
+
+
 
 .main h1 {
   font-family: "Manrope", sans-serif;
@@ -105,7 +118,7 @@ height: 15px;
 
 @media (max-width: 768px) {
   .navbar-brand img {
-    height: 30px;
+    height: 20px;
   }
 
   .nav-link {
@@ -114,6 +127,7 @@ height: 15px;
 
   .main h1 {
     width: auto;
+    font-size: 30px;
   }
 
   .main h6{
@@ -148,6 +162,12 @@ height: 15px;
     line-height: 30px;
   }
 
+  .trust h1 {
+    font-size: 25px;
+    font-weight: 700;
+
+  }
+
   .trust h6 {
     line-height: 30px;
   }
@@ -163,30 +183,40 @@ height: 15px;
 
   }
 
-  .why h4 {
+  .why h1 {
+    font-size: 25px;
+    font-weight: 700;
     
+  }
+
+  .why h4 {
+    font-size: 18px;
   }
 
   .why h6 {
     line-height: 30px;
   }
 
+  .valuation h1{
+    font-size: 20px;
+    font-weight: 700;
+  }
+
 
 }
 
 
-@media (max-width: 408px) {
-   
-  .navbar-brand img {
-    height: 25px
-  }
+@media (max-width: 108px) {
+  h1{
+    
+    
+  } 
 
-  .navbar {
-    padding: 0.5rem 1rem;
-  }
+  
 
   .main h1 {
 
+    font-size: 20px;
   }
 
   .btn0, .btn1 {
@@ -201,10 +231,15 @@ height: 15px;
     height: auto;
   }
 
+  .navbar-brand{
+    height: 15px;
+  }
 
   .menu-icon{
-    margin-left: 90px;
-    font-size: 30px;
+    margin: auto;
+    left: 350px;
+    font-size: 10px;
+    color: green;
   }
 
   .valuation img {
@@ -213,6 +248,11 @@ height: 15px;
 
  .why h6{
   line-height: 30px;
+ }
+
+ .trust h1{
+  font-size: 20px;
+  font-weight: 700;
  }
 
   .trust-class .row {
@@ -226,5 +266,18 @@ height: 15px;
     margin-bottom: 15px;
   }
 
+  .why h1{
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .why h4 {
+    font-size: 15px;
+  }
+
+  .valuation h1{
+    font-size: 20px;
+    font-weight: 700;
+  }
 }
 
